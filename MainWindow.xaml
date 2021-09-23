@@ -22,6 +22,28 @@
         <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="79,301,0,0" Height="60" Click="Button_Click"/>
         <Label x:Name="answerLabel" Content="You Picked..." HorizontalAlignment="Left" Height="37" Margin="333,344,0,0" VerticalAlignment="Top" Width="220"/>
         <Label Content="Chose the one you prefer to use!" HorizontalAlignment="Left" Height="42" Margin="34,54,0,0" VerticalAlignment="Top" Width="195"/>
+        <Image x:Name="pencil" HorizontalAlignment="Left" Height="240" Margin="436,120,0,0" VerticalAlignment="Top" Width="236" Source="Pencil.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="122.45"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="pen" HorizontalAlignment="Left" Height="270" Margin="458,126,0,0" VerticalAlignment="Top" Width="241" Source="pen.png" RenderTransformOrigin="0.5,0.5" Opacity="0">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="121.428"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="phone" HorizontalAlignment="Center" Height="281" Margin="473,63,75.6,0" VerticalAlignment="Top" Width="245" Source="phone.png" Opacity="0"/>
+        <Image x:Name="pad" HorizontalAlignment="Left" Height="329" Margin="488,32,0,0" VerticalAlignment="Top" Width="274" Source="pad.png" Opacity="0"/>
 
     </Grid>
 </Window>
